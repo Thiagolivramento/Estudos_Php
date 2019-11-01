@@ -15,7 +15,7 @@ class Pessoa{
     public $idade;
 //função falar nome
     public function falarNome() {
-        echo $this->nome;
+        echo $this->nome; //o $this-> informa que o atributo/campo nome que está sendo exibido diz questão ao escopo local.
     }
     public function falarIdade(){
         echo $this->idade;
@@ -24,7 +24,7 @@ class Pessoa{
 
 $uma_pessoa = new Pessoa; //new significa que estou criando um objeto para a classe pessoa.
 $uma_pessoa->nome = "Thiago";/* aqui o objeto  está recebendo a string thiago para ser alocada
-na variavel nome da classe pessoa. O mesmo ocorre na idade.
+na posição nome da classe pessoa. O mesmo ocorre na idade.
 */
 $uma_pessoa->idade = 36;
 
