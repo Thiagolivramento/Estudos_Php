@@ -14,14 +14,11 @@ switch (condição){
     break;
 
     //e assim vai colocando os casos. O break serve para parar o switch quando for a condição.
-   
+
    //caso precise, utiliza o default que serve quando nenhum caso é realizado.
    default:
    echo "data inválida";
    break;
 
    }
-
-
-          
-         
+?>
